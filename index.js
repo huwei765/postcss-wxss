@@ -71,7 +71,7 @@ module.exports = postcss.plugin('postcss-wxss', function (opts) {
               else if(selector.type === 'class'){
                 selector.value = "%%HERESUFFIX%%" + selector.value;
               }
-            });
+            })
           )
         )
       }
